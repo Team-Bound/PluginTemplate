@@ -1,0 +1,13 @@
+#file: noinspection YAMLSchemaValidation
+name: '${projectName}'
+version: '${projectVersion}'
+main: '${projectGroup}.${projectName.toLowerCase()}.${projectName}'
+api-version: '1.20'
+prefix: '${projectName}'
+load: POSTWORLD
+loadbefore: []
+depend: []
+softdepend: []
+authors: [Team-Bound]
+description: example source
+website: https://bound.kr/
